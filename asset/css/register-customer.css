@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'MetropolisNF', sans-serif;
+}
+.container { 
+    height: 100vh;
+}
+.logo-brand {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+.logo-brand p {
+    position: relative;
+    top: 80px;
+    left: 12px;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    color: #DB3022;
+}
+.logo-brand img {
+    margin : 70px 0 20px;
+    width: 35px;
+}
+.content h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.button {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "customer seller";
+    margin-top: 40px;
+}
+.button a {
+    text-decoration: none;
+}
+.button-seller {
+    font-size: 14px;
+    color: grey;
+    grid-area: customer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid grey;
+    width: 120px;
+    height: 45px;
+    
+    border-radius: 0 5px 5px 0;
+
+}
+.button-cust {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: seller;
+    background-color: #DB3022;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px 0 0 5px;
+    
+}
+.forgot a {
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+.Register{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+.Register a {
+    color: red;
+    text-decoration: none;
+}
+.login-button {
+    background-color: #DB3022;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+

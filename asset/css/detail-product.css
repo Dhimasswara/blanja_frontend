@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'MetropolisNF', sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 1px 1px 10px 1px rgb(177, 177, 177);
+  }
+  .nav-content{
+    margin: 10px auto 10px auto;
+  }
+  .navbar-brand {
+    position: relative;
+    top: 0;
+    bottom: 0;
+  }
+  .navbar-brand p {
+    position: absolute;
+    top: 11px;
+    font-size: 24px;
+    left: 50px;
+    font-weight: 700;
+    color: red;
+  }
+  .navbar-brand img {
+    width: 31px;
+  }
+  form {
+    margin-left: 200px;
+    border-radius: 50px;
+    position: relative;
+    width: 50%;
+    
+  }
+  .form-control {
+    display: absolute;
+    top: 15px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 50px ;
+    font-size: 16px;
+    padding: 8px 40px 8px 20px;
+    border: 1px solid gray;
+  }
+  input:focus {
+    outline: none;
+  }
+  .search-btn {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    width: 5%;
+    height: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+  }
+  .search-btn i {
+    font-size: 1em;
+    color: gray;
+  }
+  .navbar-nav {
+  }
+  .filter-btn {
+    margin-right: 100px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 1px solid gray !important;
+    background: none !important;
+  }
+  .cart-btn {
+    width: 50px;
+    margin-right: 10px;
+  }
+  .login-btn {
+    width: 150px;
+    margin-right: 10px;
+    background-color: #DB3022 !important;
+    color: white;
+    border-radius: 50px;
+  }
+  .sign-btn {
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 50px;
+    color: gray;
+    background-color: none !important;
+    border: 1px solid gray !important;
+  }
+  
+  /* End Navbar */
+
+
+  /* Bread */
+  .bread {
+    padding-top: 100px;
+  }
+
+
+  /* Detail-Product */
+  .detail-product .cols-one {
+    
+  }
+  .detail-product .cols-two {
+    margin-left: -45px;
+  }
+
+  .detail-product .color {
+    display: flex;
+  }
+
+  .detail-product .color .merah {
+    width: 30px;
+    height: 30px;
+    background-color: #DB3022;
+    border-radius: 100%;
+  }
+  .detail-product .color .kuning {
+    width: 30px;
+    height: 30px;
+    background-color: #ffe748;
+    border-radius: 100%;
+    margin-left: 10px;
+    outline: 1px solid black;
+    outline-offset: 5px;
+  }
+  .detail-product .color .biru {
+    width: 30px;
+    height: 30px;
+    background-color: #004eea;
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+  .detail-product .color .hijau {
+    width: 30px;
+    height: 30px;
+    background-color: #00b840;
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+  .detail-product .size-jumlah {
+    display: flex;
+  }
+  .detail-product .size-jumlah .size {
+    margin-top: 20px;
+    display: flex;
+  }
+  .detail-product .size-jumlah .size .mines {
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: grey;
+  }
+  .detail-product .size-jumlah .size .number{
+    padding-top: 5px;
+    margin-left: 5px;
+  }
+  .detail-product .size-jumlah .size .plus{
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: grey;
+  }
+
+  .detail-product .size-jumlah .jumlah {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+  }
+  .detail-product .size-jumlah .jumlah .mines {
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: grey;
+  }
+  .detail-product .size-jumlah .jumlah .number{
+    padding-top: 5px;
+    margin-left: 5px;
+  }
+  .detail-product .size-jumlah .jumlah .plus{
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: grey;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 992px) {
+    form {
+      margin-top: 20px;
+      width: 100%;
+      z-index: 99;
+      left: -200px;
+    }
+    .filter-btn {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+    }
+    .cart-btn {
+      width: 100%;
+      margin-right: 10px;
+    }
+    .login-btn {
+      width: 100%;
+    }
+    .sign-btn {
+      width: 100%;
+    }
+    .detail-product .cols-two {
+        margin-left: 0;
+      }
+    
+  }
